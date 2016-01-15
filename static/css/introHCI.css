@@ -11,8 +11,12 @@
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
-body {
-     padding: 20px;
+body{
+     background-color: #FFDD93;
+}
+h4 {
+     margin-left: 280px;
+
 }
 
 .jumbotron {
@@ -34,7 +38,7 @@ body {
 }
 
 .project {
-     margin-left: 20px;
+     margin-left: 300px;
      background-color: #62E5FF;
      padding: 20px;
      width: 525px;
