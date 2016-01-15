@@ -12,19 +12,19 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
      padding: 20px;
 }
 
 .jumbotron {
 	position: relative;
-	background: none;
+	background: "images/DSC_0227.jpg";
 }
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
+     background-image: "Flowers";
+     background-size: 50%;
+     opacity: 0.8;
      top: 0;
      left: 0;
      bottom: 0;
